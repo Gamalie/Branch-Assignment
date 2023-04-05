@@ -41,15 +41,18 @@
 }
 
 #circle{
-    background-color: rgba(8, 11, 177, 0.801);
+    background-color:linear-gradient(0deg,transparent,rgba(44, 47, 216, 0.801));
     border-radius: 50%;
     width: 150px;
     height:150px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0.5px 3px 4px;
+    /* box-shadow:0px -270px 70px -100px; */
+    box-shadow: 6px 10px 10px rgb(41, 9, 153);
+    /* box-shadow: 0.5px 3px 1px; */
     align-items:center;
+    
     
 }
 #percentage{
@@ -175,15 +178,17 @@
     margin: 10;
 }
 .continue{
-    margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-right: 10px;
     height: 45px;
+    width: 220px;
     
 }
 #text{
-    margin-left: 58px;
+    margin-left: 80px;
     color: aliceblue;
     padding-top:13px;
 }
